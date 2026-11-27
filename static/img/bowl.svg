@@ -1,39 +1,55 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" width="240" height="240">
-  <!-- 大饭碗插画：首页 / 详情页 / 空状态用 -->
-  <defs>
-    <linearGradient id="bw" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#fffdf6"/>
-      <stop offset="1" stop-color="#f3e7c8"/>
-    </linearGradient>
-  </defs>
-  <!-- 蒸汽 -->
-  <g stroke="#e8d3ab" stroke-width="5" stroke-linecap="round" opacity="0.7">
-    <path d="M96 58 q-4 -14 2 -20"/>
-    <path d="M122 54 q-2 -16 4 -22"/>
-    <path d="M148 58 q-4 -14 2 -20"/>
+  <!-- 青花瓷碗插画：首页 / 详情页 / 空状态用（本站定制，与原模板不同） -->
+  <!-- 蒸汽：蓝灰色波浪线 -->
+  <g stroke="#7aa5c4" stroke-width="5" stroke-linecap="round" fill="none" opacity="0.8">
+    <path d="M100 62 q-8 -12 0 -22 q8 -10 0 -20"/>
+    <path d="M132 60 q-8 -12 0 -22 q8 -10 0 -20"/>
   </g>
   <!-- 桌面阴影 -->
-  <ellipse cx="120" cy="204" rx="90" ry="22" fill="#ecd9b0"/>
-  <!-- 碗身 -->
-  <path d="M34 156 Q120 216 206 156 L194 196 Q120 240 46 196 Z" fill="#faf4e6" stroke="#d9c39a" stroke-width="5"/>
-  <path d="M46 196 Q120 240 194 196 Q120 216 46 196 Z" fill="#e8d3ab"/>
-  <!-- 碗口 -->
-  <ellipse cx="120" cy="150" rx="86" ry="34" fill="url(#bw)" stroke="#d9c39a" stroke-width="4.5"/>
+  <ellipse cx="120" cy="206" rx="92" ry="20" fill="#ecd9b0"/>
+  <!-- 勺子：斜靠在碗左侧 -->
+  <g transform="rotate(-24 52 120)">
+    <rect x="47" y="96" width="9" height="62" rx="4.5" fill="#9db8cc"/>
+    <ellipse cx="51.5" cy="86" rx="13" ry="17" fill="#c9d9e6" stroke="#9db8cc" stroke-width="3"/>
+  </g>
+  <!-- 碗身：白瓷 + 青花 -->
+  <path d="M32 152 Q120 214 208 152 L196 198 Q120 242 44 198 Z" fill="#ffffff" stroke="#2f6db3" stroke-width="5"/>
+  <!-- 碗身青花纹：波点与小花 -->
+  <g fill="#2f6db3" opacity="0.85">
+    <circle cx="78" cy="182" r="4"/>
+    <circle cx="104" cy="194" r="4"/>
+    <circle cx="132" cy="196" r="4"/>
+    <circle cx="158" cy="186" r="4"/>
+  </g>
+  <g fill="#5b93d6">
+    <circle cx="120" cy="176" r="5"/>
+    <circle cx="108" cy="168" r="3.4"/>
+    <circle cx="132" cy="168" r="3.4"/>
+    <circle cx="120" cy="162" r="3.4"/>
+  </g>
+  <!-- 碗底圈足 -->
+  <path d="M84 224 Q120 236 156 224 L150 234 Q120 244 90 234 Z" fill="#2f6db3"/>
+  <!-- 碗口：双蓝线边 -->
+  <ellipse cx="120" cy="148" rx="88" ry="34" fill="#fdfefe" stroke="#2f6db3" stroke-width="5"/>
+  <ellipse cx="120" cy="148" rx="78" ry="28" fill="none" stroke="#5b93d6" stroke-width="2.5"/>
   <!-- 米饭堆 -->
-  <g fill="#fdf6e3" stroke="#e8d3ab" stroke-width="1.2">
-    <ellipse cx="84" cy="146" rx="20" ry="11"/>
-    <ellipse cx="126" cy="140" rx="20" ry="11"/>
-    <ellipse cx="164" cy="146" rx="20" ry="11"/>
-    <ellipse cx="104" cy="166" rx="20" ry="11"/>
-    <ellipse cx="144" cy="166" rx="20" ry="11"/>
-    <ellipse cx="122" cy="156" rx="14" ry="8" fill="#fff9ec"/>
+  <g fill="#ffffff" stroke="#d7dee3" stroke-width="1.4">
+    <ellipse cx="82" cy="144" rx="21" ry="11"/>
+    <ellipse cx="158" cy="144" rx="21" ry="11"/>
+    <ellipse cx="102" cy="160" rx="20" ry="10"/>
+    <ellipse cx="140" cy="160" rx="20" ry="10"/>
   </g>
-  <!-- 筷子 -->
-  <g stroke="#b98d4f" stroke-width="6" stroke-linecap="round">
-    <line x1="176" y1="60" x2="192" y2="112"/>
-    <line x1="196" y1="64" x2="212" y2="116"/>
+  <!-- 荷包蛋：蛋白 + 蛋黄 -->
+  <path d="M96 128 q10 -12 26 -8 q18 -4 24 8 q10 10 -2 18 q-8 10 -24 6 q-16 4 -24 -6 q-10 -8 0 -18 Z" fill="#fffef8" stroke="#e8ddc0" stroke-width="1.6"/>
+  <circle cx="121" cy="136" r="13" fill="#f59e0b"/>
+  <circle cx="121" cy="136" r="9" fill="#fbbf24"/>
+  <circle cx="117" cy="132" r="3" fill="#fde68a"/>
+  <!-- 葱花 -->
+  <g fill="#34a853">
+    <rect x="76" y="132" width="7" height="3.4" rx="1.7" transform="rotate(24 79 133)"/>
+    <rect x="160" y="130" width="7" height="3.4" rx="1.7" transform="rotate(-18 163 131)"/>
+    <rect x="98" y="118" width="7" height="3.4" rx="1.7" transform="rotate(40 101 119)"/>
+    <rect x="146" y="118" width="7" height="3.4" rx="1.7" transform="rotate(-32 149 119)"/>
+    <rect x="120" y="156" width="7" height="3.4" rx="1.7" transform="rotate(12 123 157)"/>
   </g>
-  <!-- 小辣椒 -->
-  <path d="M52 78 q14 -32 32 -12 q-4 20 -22 24 Z" fill="#e23a3a"/>
-  <path d="M64 88 q4 16 -6 24" stroke="#c02626" stroke-width="4" fill="none" stroke-linecap="round"/>
 </svg>
