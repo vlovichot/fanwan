@@ -37,39 +37,84 @@ function svgDataUri(svg) {
 // 饭碗插画（右侧大碗 + 米粒 + 筷子 + 小辣椒）
 function bowlIllustration() {
   return `<svg xmlns="http://www.w3.org/2000/svg" width="420" height="420" viewBox="0 0 420 420">
-  <ellipse cx="210" cy="318" rx="168" ry="58" fill="#f4e3c0"/>
-  <path d="M42 280 Q210 370 378 280 L356 352 Q210 420 64 352 Z" fill="#faf4e6" stroke="#d9c39a" stroke-width="6"/>
-  <path d="M64 352 Q210 420 356 352 Q210 398 64 352 Z" fill="#e8d3ab"/>
-  <ellipse cx="210" cy="272" rx="168" ry="62" fill="#fffdf6" stroke="#e0cd9f" stroke-width="5"/>
-  <path d="M70 280 Q210 330 350 280" fill="none" stroke="#e0cd9f" stroke-width="5"/>
-  <g fill="#fdf6e3">
-    <ellipse cx="140" cy="262" rx="26" ry="15"/>
-    <ellipse cx="210" cy="256" rx="26" ry="15"/>
-    <ellipse cx="280" cy="262" rx="26" ry="15"/>
-    <ellipse cx="175" cy="292" rx="26" ry="15"/>
-    <ellipse cx="245" cy="292" rx="26" ry="15"/>
+  <ellipse cx="210" cy="362" rx="162" ry="36" fill="#f4e3c0"/>
+  <g stroke="#7aa5c4" stroke-width="8" stroke-linecap="round" fill="none" opacity="0.8">
+    <path d="M176 108 q-14 -20 0 -38 q14 -18 0 -36"/>
+    <path d="M232 106 q-14 -20 0 -38 q14 -18 0 -36"/>
   </g>
-  <g stroke="#b98d4f" stroke-width="7" stroke-linecap="round">
-    <path d="M322 150 L266 200"/>
-    <path d="M338 162 L282 212"/>
+  <g transform="rotate(-24 92 210)">
+    <rect x="82" y="168" width="16" height="108" rx="8" fill="#9db8cc"/>
+    <ellipse cx="90" cy="146" rx="23" ry="30" fill="#c9d9e6" stroke="#9db8cc" stroke-width="5"/>
   </g>
-  <path d="M150 120 q18 -30 40 -12 q-4 24 -26 30 Z" fill="#e23a3a"/>
-  <path d="M160 126 q4 18 -6 26" stroke="#c02626" stroke-width="4" fill="none" stroke-linecap="round"/>
+  <path d="M56 266 Q210 368 364 266 L344 336 Q210 414 76 336 Z" fill="#ffffff" stroke="#2f6db3" stroke-width="7"/>
+  <g fill="#2f6db3" opacity="0.85">
+    <circle cx="136" cy="318" r="7"/>
+    <circle cx="182" cy="338" r="7"/>
+    <circle cx="232" cy="340" r="7"/>
+    <circle cx="276" cy="322" r="7"/>
+  </g>
+  <g fill="#5b93d6">
+    <circle cx="210" cy="306" r="9"/>
+    <circle cx="189" cy="292" r="6"/>
+    <circle cx="231" cy="292" r="6"/>
+    <circle cx="210" cy="282" r="6"/>
+  </g>
+  <path d="M146 386 Q210 404 274 386 L264 402 Q210 420 156 402 Z" fill="#2f6db3"/>
+  <ellipse cx="210" cy="258" rx="154" ry="60" fill="#fdfefe" stroke="#2f6db3" stroke-width="7"/>
+  <ellipse cx="210" cy="258" rx="136" ry="48" fill="none" stroke="#5b93d6" stroke-width="4"/>
+  <g fill="#ffffff" stroke="#d7dee3" stroke-width="2.4">
+    <ellipse cx="144" cy="250" rx="37" ry="19"/>
+    <ellipse cx="278" cy="250" rx="37" ry="19"/>
+    <ellipse cx="178" cy="278" rx="35" ry="17"/>
+    <ellipse cx="244" cy="278" rx="35" ry="17"/>
+  </g>
+  <path d="M168 222 q18 -20 46 -14 q32 -6 42 14 q18 18 -4 32 q-14 18 -42 10 q-28 6 -42 -10 q-18 -14 0 -32 Z" fill="#fffef8" stroke="#e8ddc0" stroke-width="3"/>
+  <circle cx="212" cy="236" r="23" fill="#f59e0b"/>
+  <circle cx="212" cy="236" r="16" fill="#fbbf24"/>
+  <circle cx="205" cy="229" r="5" fill="#fde68a"/>
+  <g fill="#34a853">
+    <rect x="132" y="228" width="12" height="6" rx="3" transform="rotate(24 138 231)"/>
+    <rect x="280" y="226" width="12" height="6" rx="3" transform="rotate(-18 286 229)"/>
+    <rect x="172" y="204" width="12" height="6" rx="3" transform="rotate(40 178 207)"/>
+    <rect x="256" y="204" width="12" height="6" rx="3" transform="rotate(-32 262 207)"/>
+    <rect x="210" y="272" width="12" height="6" rx="3" transform="rotate(12 216 275)"/>
+  </g>
 </svg>`;
 }
 
 // 饭碗儿 Logo（小碗，OG 图左上角用）
 function logoDataUri() {
-  return svgDataUri(`<svg xmlns="http://www.w3.org/2000/svg" width="96" height="96" viewBox="0 0 96 96">
-  <ellipse cx="48" cy="76" rx="34" ry="12" fill="#f4e3c0"/>
-  <path d="M14 64 Q48 84 82 64 L78 80 Q48 96 18 80 Z" fill="#faf4e6" stroke="#d9c39a" stroke-width="3"/>
-  <ellipse cx="48" cy="60" rx="34" ry="14" fill="#fffdf6" stroke="#e0cd9f" stroke-width="2.5"/>
-  <g fill="#f6e8c8">
-    <ellipse cx="38" cy="57" rx="6" ry="3.6"/>
-    <ellipse cx="50" cy="54" rx="6" ry="3.6"/>
-    <ellipse cx="58" cy="59" rx="6" ry="3.6"/>
+  return svgDataUri(`<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96" width="96" height="96">
+  <!-- 饭碗儿 Logo（本站定制）：青花瓷碗 + 荷包蛋 + 勺子 -->
+  <ellipse cx="48" cy="82" rx="36" ry="8" fill="#ecd9b0"/>
+  <!-- 勺子 -->
+  <g transform="rotate(-24 22 46)">
+    <rect x="19" y="34" width="5" height="26" rx="2.5" fill="#9db8cc"/>
+    <ellipse cx="21.5" cy="28" rx="7" ry="9" fill="#c9d9e6" stroke="#9db8cc" stroke-width="2"/>
   </g>
-  <path d="M58 20 q6 -12 14 -4 q-2 9 -10 11 Z" fill="#e23a3a"/>
+  <!-- 碗身 -->
+  <path d="M13 60 Q48 85 83 60 L79 77 Q48 95 17 77 Z" fill="#ffffff" stroke="#2f6db3" stroke-width="3"/>
+  <g fill="#2f6db3" opacity="0.85">
+    <circle cx="34" cy="72" r="2.2"/>
+    <circle cx="48" cy="76" r="2.2"/>
+    <circle cx="62" cy="72" r="2.2"/>
+  </g>
+  <!-- 碗口 -->
+  <ellipse cx="48" cy="58" rx="35" ry="14" fill="#fdfefe" stroke="#2f6db3" stroke-width="2.6"/>
+  <ellipse cx="48" cy="58" rx="29" ry="10.5" fill="none" stroke="#5b93d6" stroke-width="1.6"/>
+  <!-- 米饭 -->
+  <g fill="#ffffff" stroke="#d7dee3" stroke-width="1">
+    <ellipse cx="36" cy="55" rx="7" ry="4"/>
+    <ellipse cx="60" cy="55" rx="7" ry="4"/>
+  </g>
+  <!-- 蛋黄 -->
+  <circle cx="48" cy="53" r="7" fill="#f59e0b"/>
+  <circle cx="48" cy="53" r="4.4" fill="#fbbf24"/>
+  <!-- 葱花 -->
+  <g fill="#34a853">
+    <rect x="30" y="46" width="5" height="2.4" rx="1.2" transform="rotate(24 32 47)"/>
+    <rect x="62" y="46" width="5" height="2.4" rx="1.2" transform="rotate(-20 64 47)"/>
+  </g>
 </svg>`);
 }
 
